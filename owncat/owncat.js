@@ -66,9 +66,10 @@ if (isSPresent) {
         }
     }
     // console.log("data after removing extra lines\n",tempArr);
+    contentArr = tempArr;
 }
 
-contentArr = tempArr;
+
 
 let indexOfN = optionsArr.indexOf("-n");
 let indexOfB = optionsArr.indexOf("-b");
